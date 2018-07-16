@@ -23,7 +23,7 @@ Get that repository and inside the project directory, use:
 
 ```
 oc project you_project
-oc import . --name=nginx
+oc new-app . --name=nginx
 ```
 
 That will import the repository inside your OpenShift project, build image and start nginx.
